@@ -15,6 +15,8 @@
 		359132111A853D080081CCA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3591320F1A853D080081CCA1 /* LaunchScreen.xib */; };
 		3591321D1A853D090081CCA1 /* lastestImagesViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3591321C1A853D090081CCA1 /* lastestImagesViewerTests.m */; };
 		3591322A1A85490C0081CCA1 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 359132291A85490C0081CCA1 /* PhotoCollectionViewCell.m */; };
+		3591322D1A856DEC0081CCA1 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3591322C1A856DEC0081CCA1 /* Photo.m */; };
+		359132331A8574CC0081CCA1 /* PhotosFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 359132321A8574CC0081CCA1 /* PhotosFetcher.m */; };
 		861DF95EFF75D49B78194628 /* libPods-lastestImagesViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B81A38B34750AC13DFB53B3E /* libPods-lastestImagesViewer.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,10 @@
 		3591321C1A853D090081CCA1 /* lastestImagesViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lastestImagesViewerTests.m; sourceTree = "<group>"; };
 		359132281A85490C0081CCA1 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		359132291A85490C0081CCA1 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		3591322B1A856DEC0081CCA1 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		3591322C1A856DEC0081CCA1 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		359132311A8574CC0081CCA1 /* PhotosFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosFetcher.h; sourceTree = "<group>"; };
+		359132321A8574CC0081CCA1 /* PhotosFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosFetcher.m; sourceTree = "<group>"; };
 		366B31628752A6BAE5600C0B /* Pods-lastestImagesViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastestImagesViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lastestImagesViewer/Pods-lastestImagesViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		B81A38B34750AC13DFB53B3E /* libPods-lastestImagesViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lastestImagesViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +99,8 @@
 			children = (
 				359132271A8548ED0081CCA1 /* View */,
 				359132261A8546100081CCA1 /* Model */,
+				359132311A8574CC0081CCA1 /* PhotosFetcher.h */,
+				359132321A8574CC0081CCA1 /* PhotosFetcher.m */,
 				359132041A853D080081CCA1 /* AppDelegate.h */,
 				359132051A853D080081CCA1 /* AppDelegate.m */,
 				359132071A853D080081CCA1 /* ViewController.h */,
@@ -134,6 +142,8 @@
 		359132261A8546100081CCA1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3591322B1A856DEC0081CCA1 /* Photo.h */,
+				3591322C1A856DEC0081CCA1 /* Photo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -301,7 +311,9 @@
 			files = (
 				359132091A853D080081CCA1 /* ViewController.m in Sources */,
 				3591322A1A85490C0081CCA1 /* PhotoCollectionViewCell.m in Sources */,
+				359132331A8574CC0081CCA1 /* PhotosFetcher.m in Sources */,
 				359132061A853D080081CCA1 /* AppDelegate.m in Sources */,
+				3591322D1A856DEC0081CCA1 /* Photo.m in Sources */,
 				359132031A853D080081CCA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
